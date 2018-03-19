@@ -22,6 +22,7 @@ App- React/Redux and a node.js/express backend
 - sign up first
 
    test@test.com
+   
    test
    
 - then sign in
