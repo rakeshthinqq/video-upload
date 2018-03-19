@@ -1,5 +1,5 @@
-# react-redux-node-auth-sample
-Example application featuring a functional Front-end React/Redux app and a node.js/express backend
+# react-redux-node-auth-app
+App- React/Redux and a node.js/express backend
 
 ## Prerequisites :
 - nodejs installed
