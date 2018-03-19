@@ -19,6 +19,9 @@ App- React/Redux and a node.js/express backend
 - `cd client`
 - `make`
 - Open http://localhost:9000 in a browser
-
+- sign up first
+   test@test.com
+   test
+- then sign in
 
 
