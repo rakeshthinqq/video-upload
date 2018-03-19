@@ -1,0 +1,50 @@
+{
+  "name": "node-sequelize",
+  "version": "1.0.0",
+  "description": "nodejs API",
+  "main": "server.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "crypto": "",
+    "body-parser": "^1.18.2",
+    "casual": "^1.5.17",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.0",
+    "sequelize": "^4.28.6"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.12.1",
+    "sqlite3": "^3.1.13",
+    "supertest": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node",
+    "test": "nodemon ./test/auth_tests.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-tutorial-kit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apollographql/apollo-tutorial-kit/issues"
+  },
+  "homepage": "https://github.com/apollographql/apollo-tutorial-kit#readme"
+}
